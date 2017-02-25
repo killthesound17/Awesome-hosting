@@ -133,18 +133,15 @@ form {
     display: inline-block;
     vertical-align: bottom;
 }
-
 form input[type="text"] {
-        padding-left: 25px;
-width: 430px;
-height: 55px;
-border: 1px solid #dfeef3;
-background-color: #ffffff;
-
+    padding-left: 25px;
+    width: 430px;
+    height: 55px;
+    border: 1px solid #dfeef3;
+    background-color: #ffffff;
 }
-
 form select[name="year"] {
-        width: 165px;
+    width: 165px;
     height: 55px;
     border: 1px solid #dfeef3;
     background-color: #ffffff;
@@ -154,38 +151,92 @@ form select[name="year"] {
     font-size: 14px;
     font-weight: 400;
 }
-
 form select[name="domain"] {
     width: 165px;
-height: 55px;
-border: 1px solid #dfeef3;
-background-color: #ffffff;
+    height: 55px;
+    border: 1px solid #dfeef3;
+    background-color: #ffffff;
     padding-left: 25px;
-        color: #a0a9b6;
+    color: #a0a9b6;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
 }
 #search {
     width: 196px;
-height: 55px;
-background-color: #ff8261;
+    height: 55px;
+    background-color: #ff8261;
     color: #ffffff;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.benefits-title hr {
+    width:20px;
+    height: 2px;
+    margin: 0px;
+    text-align: left;
+    margin-top: 40px;
+    background-color: #fb6b45;
 }
 
+.benefits-title h3{
+    margin: 0px;
+    font-family: "Open Sans";
+line-height: 31px;
+text-transform: uppercase;
+    color: #556b72;
+font-size: 30px;
+font-weight: 700;
+}
 
-
-
-
-
+.benefits-title p {
+    margin: 0px;
+    color: #859aa1;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.benefits-item {
+        width: 32%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .benefits-item .fa {
-        color: #fb6b45;
+    color: #fb6b45;
     /* font-family: "Font Awesome"; */
     font-size: 60px;
     font-weight: 400;
     text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+  
+}
+
+.itemtext {
+    display: inline-block;
+    width: 75%;
+}
+
+.itemtext h3 {
+    color: #556b72;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 31px;
+text-transform: uppercase;
+}
+
+.itemtext p {
+    color: #a0a9b6;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+    margin: 0px;
 }
