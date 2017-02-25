@@ -6,7 +6,6 @@
     display: inline-block;
     margin: auto;
 }
-
 .headlogo {
     padding-top: 30px;
 }
@@ -27,18 +26,15 @@
     text-transform: uppercase;
     line-height: 14px;
 }
-
 .logo img {
     vertical-align: sub;
 }
-
 .sup {
     width: 38%;
     margin: 0;
     display: inline-block;
     vertical-align: super;
 }
-
 .sup ul {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -64,10 +60,9 @@
     padding-right: 17px;
     border-right: 1px solid #643699;
 }
-
 .sup ul li:nth-child(2) {
     padding-left: 17px;
-        padding-right: 17px;
+    padding-right: 17px;
     border-right: 1px solid #643699;
 }
 .sup ul li:last-child {
@@ -76,26 +71,24 @@
 }
 nav {
     background-color: #ff8261;
-        margin-top: 15px;
+    margin-top: 15px;
 }
 nav ul li {
     display: inline-block;
     padding: 22px 26px;
     text-align: center;
-
 }
-
 nav ul li:nth-child(1) {
     background-color: #52cbf8;
 }
 nav ul li a {
     text-decoration: none;
-        text-decoration: none;
+    text-decoration: none;
     color: #ffffff;
-font-family: "Open Sans";
-font-size: 13px;
-font-weight: 400;
-text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 .slider {
     width: 100%;
@@ -107,4 +100,92 @@ text-transform: uppercase;
     width: 100%;
     height: 200px;
     background-color: #e7f4f8;
+}
+.searchform .fa {
+    padding-top: 40px;
+    color: #fb6b45;
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.dom {
+    height: 44px;
+    width: 127px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 30px;
+}
+.dom p {
+    color: #859aa1;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+}
+.dom h3 {
+    color: #556b72;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+}
+form {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+form input[type="text"] {
+        padding-left: 25px;
+width: 430px;
+height: 55px;
+border: 1px solid #dfeef3;
+background-color: #ffffff;
+
+}
+
+form select[name="year"] {
+        width: 165px;
+    height: 55px;
+    border: 1px solid #dfeef3;
+    background-color: #ffffff;
+    padding-left: 25px;
+    color: #a0a9b6;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+form select[name="domain"] {
+    width: 165px;
+height: 55px;
+border: 1px solid #dfeef3;
+background-color: #ffffff;
+    padding-left: 25px;
+        color: #a0a9b6;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+#search {
+    width: 196px;
+height: 55px;
+background-color: #ff8261;
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+.benefits-item .fa {
+        color: #fb6b45;
+    /* font-family: "Font Awesome"; */
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
