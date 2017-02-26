@@ -2,7 +2,10 @@
     width: 1169px;
     margin: 0 auto;
 }
-<-----------------------------HEADER-------------------------> .headlogo div {
+
+/*-----------------------------HEADER-------------------------*/
+
+.headlogo div {
     display: inline-block;
     margin: auto;
 }
@@ -133,7 +136,7 @@ form {
     display: inline-block;
     vertical-align: bottom;
 }
-form input[type="text"] {
+.search input[type="text"] {
     padding-left: 25px;
     width: 430px;
     height: 55px;
@@ -173,24 +176,22 @@ form select[name="domain"] {
     text-transform: uppercase;
 }
 .benefits-title hr {
-    width:20px;
+    width: 20px;
     height: 2px;
     margin: 0px;
     text-align: left;
     margin-top: 40px;
     background-color: #fb6b45;
 }
-
-.benefits-title h3{
+.benefits-title h3 {
     margin: 0px;
     font-family: "Open Sans";
-line-height: 31px;
-text-transform: uppercase;
+    line-height: 31px;
+    text-transform: uppercase;
     color: #556b72;
-font-size: 30px;
-font-weight: 700;
+    font-size: 30px;
+    font-weight: 700;
 }
-
 .benefits-title p {
     margin: 0px;
     color: #859aa1;
@@ -201,10 +202,11 @@ font-weight: 700;
     text-transform: uppercase;
 }
 .benefits-item {
-        width: 32%;
+    width: 32%;
     display: inline-block;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: 10px;
 }
 .benefits-item .fa {
     color: #fb6b45;
@@ -215,28 +217,401 @@ font-weight: 700;
     display: inline-block;
     vertical-align: top;
     width: 23%;
-  
+    text-align: center;
 }
-
 .itemtext {
     display: inline-block;
     width: 75%;
 }
-
 .itemtext h3 {
     color: #556b72;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 700;
-line-height: 31px;
-text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 31px;
+    text-transform: uppercase;
 }
-
 .itemtext p {
     color: #a0a9b6;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
     margin: 0px;
 }
+.features ul {
+    padding-top: 15px;
+}
+.hot-n-features {
+    background-color: #fffbde;
+    height: 409px;
+}
+.hot {
+    display: inline-block;
+    width: 40%;
+}
+.hot h3 {
+    margin: 0px;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #556b72;
+    font-size: 30px;
+    font-weight: 700;
+}
+.features {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+.features h3 {
+    margin: 0px;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #556b72;
+    font-size: 30px;
+    font-weight: 700;
+}
+.hot hr {
+    width: 20px;
+    height: 2px;
+    margin: 0px;
+    text-align: left;
+    margin-top: 40px;
+    background-color: #fb6b45;
+}
+.features hr {
+    width: 20px;
+    height: 2px;
+    margin: 0px;
+    text-align: left;
+    margin-top: 40px;
+    background-color: #fb6b45;
+}
+.features li {
+    display: inline-block;
+    width: 49%;
+    font-weight: 400;
+    line-height: 36px;
+    color: #696556;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+.hot p {
+    margin: 0px;
+    color: #859aa1;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.hot img {
+    margin-top: 30px;
+}
+.features p {
+    margin: 0px;
+    color: #859aa1;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.viewall {
+    width: 165px;
+    height: 55px;
+    background-color: #ff8261;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+.host-title {
+    padding-bottom: 30px;
+}
+.host-title hr {
+    width: 20px;
+    height: 2px;
+    margin: 0px;
+    text-align: left;
+    margin-top: 40px;
+    background-color: #fb6b45;
+}
+.host-title h3 {
+    margin: 0px;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #556b72;
+    font-size: 30px;
+    font-weight: 700;
+}
+.host-title p {
+    margin: 0px;
+    color: #859aa1;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.paymentplan {
+    display: inline-block;
+    border: 1px solid #e1eff4;
+    width: 22.5%;
+    text-align: center;
+    margin-right: 27px;
+}
+.paymentplan:last-child {
+    margin-right: 0px;
+}
+.pr:before {
+    content: '$';
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #556b72;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    margin: 0px;
+}
+.pr {
+    padding-top: 30px;
+    color: #556b72;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0px;
+}
+.pm {
+    font-size: 14px;
+    font-weight: 600;
+    color: #556b72;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    margin: 0px;
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+.paymentplan a {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.b-plan {
+    width: 183px;
+    height: 39px;
+    background-color: #52cbf8;
+}
+.planinfo {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #8d9198;
+}
+.planinfo p {
+    border-bottom: 1px solid #e1eff4;
+    margin: 0px;
+}
+.planinfo p:last-child {
+    border-bottom: none;
+    padding-bottom: 33px;
+}
+.planinfo p:first-child {
+    padding-top: 50px;
+}
+.paymentplan button:last-child {
+    width: 115px;
+    height: 43px;
+    background-color: #ff8261;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.newsletter {
+    width: 100%;
+    height: 230px;
+    background-color: #e7f4f8;
+}
+.sign-for-letter {
+    display: inline-block;
+    width: 18%
+}
+.signup {
+    display: inline-block;
+    width: 81%;
+}
+.sign-for-letter .fa {
+    color: #fb6b45;
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+.sign-for-letter p {
+    margin: 0px;
+    color: #859aa1;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.sign-for-letter h3 {
+    margin: 0px;
+    font-family: "Open Sans";
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #556b72;
+    font-size: 30px;
+    font-weight: 700;
+}
+.signup input[type="text"] {
+    width: 707px;
+    height: 55px;
+    background-color: #ffffff;
+    padding-left: 15px;
+    border: none;
+    margin: 0px;
+}
+#signup {
+    width: 196px;
+    height: 57px;
+    background-color: #ff8261;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    margin: 0px;
+}
+
+/*************************************FOOTER---------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 385px;
+    background-color: #4c515b;
+}
+.copyright {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-top: 150px;
+}
+.copyright h3 {
+    display: inline-block;
+    color: #e7f4f8;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.copyright p {
+    color: #909aad;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+}
+.quick_links {
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+}
+.quick_links li {
+    display: inline-block;
+    width: 45%;
+}
+.contact_us {
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+}
+.socialmedia {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+.quick_links,
+.contact_us,
+.socialmedia {
+    margin-top: 100px;
+}
+.quick_links h3,
+.contact_us h3,
+.socialmedia h3 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.contact_us ul li {
+    color: #909aad;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.quick_links li a {
+    text-decoration: none;
+    color: #909aad;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.add:before {
+    content: "Address: ";
+    color: #e7f4f8;
+}
+.email:before {
+    content: "E-mail: ";
+    color: #e7f4f8;
+}
+.tel:before {
+    content: "Call: ";
+    color: #e7f4f8;
+}
+.socialmedia .fa {
+    color: #909aad;
+font-size: 24px;
+font-weight: 400;
+line-height: 48px;
+    margin-right: 15px;
+}
+
+/* .mark {
+    width: 59px;
+    height: 59px;
+    border: 1px solid #ff8261;
+    display: block;
+    border-radius: 50%;
+}
+
+.mark .fa {
+    padding-top: 22px;
+    padding-left: 25px;
+} */
